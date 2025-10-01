@@ -11,10 +11,11 @@ const fetchPlayers = async () => {
 }
 
 function App() {
- const playerPomise = fetchPlayers()
+  const playerPomise = fetchPlayers()
   return (
     <>
       <NavBar></NavBar>
+      {/* Available / Selected */}
       <Suspense fallback={<span className="loading loading-infinity loading-xl"></span>}>
         <AvailablesPlayers playerPomise={playerPomise}></AvailablesPlayers>
       </Suspense>
