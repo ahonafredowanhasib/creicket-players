@@ -1,0 +1,122 @@
+[
+  {
+    "player-image": "https://i.ibb.co.com/S4hP7Gvh/images-2.jpg",
+    "player-name": "Tamim Iqbal",
+    "player-country": "Bangladesh",
+    "playing-role": "Opening Batsman",
+    "player-rating": 90,
+    "bating-style": "Left-Handed Bat",
+    "bowling-style": "Right-Arm Off-Break (Occasional)",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/mVFN8xHv/11-500x500.png",
+    "player-name": "Shakib Al Hasan",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "player-rating": 95,
+    "bating-style": "Left-Handed Bat",
+    "bowling-style": "Slow Left-Arm Orthodox",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/LdzHwZhd/images-3.jpg",
+    "player-name": "Shoriful Islam",
+    "player-country": "Bangladesh",
+    "playing-role": "Fast Bowler",
+    "player-rating": 85,
+    "bating-style": "Left-Handed Bat",
+    "bowling-style": "Left-Arm Medium-Fast",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/VpHzFmD6/202406041508161117660420jpg.jpg",
+    "player-name": "Towhid Hridoy",
+    "player-country": "Bangladesh",
+    "playing-role": "Middle Order Batsman",
+    "player-rating": 88,
+    "bating-style": "Right-Handed Bat",
+    "bowling-style": "Right-Arm Off-Break (Occasional)",
+    "player-price": "60 Lakh BDT"
+  },
+  {
+    "player-image": "https://example.com/images/mustafizur-rahman.jpg",
+    "player-name": "Mustafizur Rahman",
+    "player-country": "Bangladesh",
+    "playing-role": "Fast Bowler",
+    "player-rating": 92,
+    "bating-style": "Left-Handed Bat",
+    "bowling-style": "Left-Arm Fast-Medium",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://example.com/images/babar-azam.jpg",
+    "player-name": "Babar Azam",
+    "player-country": "Pakistan",
+    "playing-role": "Top Order Batsman",
+    "player-rating": 94,
+    "bating-style": "Right-Handed Bat",
+    "bowling-style": "Off-Break (Rarely)",
+    "player-price": "80,000 USD"
+  },
+  {
+    "player-image": "https://example.com/images/mehidy-hasan-miraz.jpg",
+    "player-name": "Mehidy Hasan Miraz",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "player-rating": 87,
+    "bating-style": "Right-Handed Bat",
+    "bowling-style": "Right-Arm Off-Break",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://example.com/images/mushfiqur-rahim.jpg",
+    "player-name": "Mushfiqur Rahim",
+    "player-country": "Bangladesh",
+    "playing-role": "Wicketkeeper Batsman",
+    "player-rating": 89,
+    "bating-style": "Right-Handed Bat",
+    "bowling-style": "N/A",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://example.com/images/sunil-narine.jpg",
+    "player-name": "Sunil Narine",
+    "player-country": "West Indies",
+    "playing-role": "All-Rounder",
+    "player-rating": 91,
+    "bating-style": "Left-Handed Bat",
+    "bowling-style": "Right-Arm Off-Break",
+    "player-price": "60,000 USD"
+  },
+  {
+    "player-image": "https://example.com/images/liton-das.jpg",
+    "player-name": "Litton Das",
+    "player-country": "Bangladesh",
+    "playing-role": "Wicketkeeper Batsman",
+    "player-rating": 86,
+    "bating-style": "Right-Handed Bat",
+    "bowling-style": "N/A",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://example.com/images/mahmdullah-riyad.jpg",
+    "player-name": "Mahmudullah Riyad",
+    "player-country": "Bangladesh",
+    "playing-role": "Middle Order Batsman",
+    "player-rating": 84,
+    "bating-style": "Right-Handed Bat",
+    "bowling-style": "Right-Arm Off-Break",
+    "player-price": "80 Lakh BDT"
+  },
+  {
+    "player-image": "https://example.com/images/taskin-ahmed.jpg",
+    "player-name": "Taskin Ahmed",
+    "player-country": "Bangladesh",
+    "playing-role": "Fast Bowler",
+    "player-rating": 86,
+    "bating-style": "Left-Handed Bat",
+    "bowling-style": "Right-Arm Fast",
+    "player-price": "80 Lakh BDT"
+  }
+]
