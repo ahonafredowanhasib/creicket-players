@@ -1,6 +1,9 @@
-import React from 'react';
 
-const AvailablesPlayers = () => {
+import React, { use } from 'react';
+
+const AvailablesPlayers = ({playerPomise}) => {
+    const playerData = use(playerPomise)
+    console.log(playerData)
     return (
         <div>
             Comming soon
