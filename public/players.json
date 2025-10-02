@@ -7,7 +7,7 @@
     "rating": 9.0,
     "batingStyle": "Left-Handed Bat",
     "bowlingStyle": "Right-Arm (Occasional)",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/mVFN8xHv/11-500x500.png",
@@ -17,7 +17,7 @@
     "rating": 9.5,
     "batingStyle": "Left-Handed Bat",
     "bowlingStyle": "Slow Left-Arm",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/LdzHwZhd/images-3.jpg",
@@ -27,7 +27,7 @@
     "rating": 8.5,
     "batingStyle": "Left-Handed Bat",
     "bowlingStyle": "Left-Arm Medium-Fast",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/VpHzFmD6/202406041508161117660420jpg.jpg",
@@ -37,7 +37,7 @@
     "rating": 8.8,
     "batingStyle": "Right-Handed Bat",
     "bowlingStyle": "Right-Arm (Occasional)",
-    "price": "60 Lakh BDT"
+    "price": "$6000000"
   },
   {
     "image": "https://i.ibb.co.com/h5whKw6/images-4.jpg",
@@ -47,7 +47,7 @@
     "rating": 9.2,
     "batingStyle": "Left-Handed Bat",
     "bowlingStyle": "Left-Arm Fast-Medium",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/ymqYYfgd/images-5.jpg",
@@ -57,7 +57,7 @@
     "rating": 9.4,
     "batingStyle": "Right-Handed Bat",
     "bowlingStyle": "Off-Break (Rarely)",
-    "price": "80,000 USD"
+    "price": "$10000000"
   },
   {
     "image": "https://i.ibb.co.com/4nVFv55C/1834883128483094.jpg",
@@ -67,7 +67,7 @@
     "rating": 8.7,
     "batingStyle": "Right-Handed Bat",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/jvYGTCJP/images-6.jpg",
@@ -77,7 +77,7 @@
     "rating": 8.9,
     "batingStyle": "Right-Handed Bat",
     "bowlingStyle": "N/A",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/JwwZGSy5/203-780x780.webp",
@@ -87,7 +87,7 @@
     "rating": 9.1,
     "batingStyle": "Left-Handed Bat",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": "60,000 USD"
+    "price": "$9000000"
   },
   {
     "image": "https://i.ibb.co.com/3mTzV1nn/ce02855bba00e08b1ea35fafc69c4d7b.png",
@@ -97,7 +97,7 @@
     "rating": 8.6,
     "batingStyle": "Right-Handed Bat",
     "bowlingStyle": "N/A",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/KpR9ghMv/image-215049-1728394846.jpg",
@@ -107,7 +107,7 @@
     "rating": 8.4,
     "batingStyle": "Right-Handed Bat",
     "bowlingStyle": "Right-Arm Off-Break",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   },
   {
     "image": "https://i.ibb.co.com/LXC59Dns/694-camedia.png",
@@ -117,6 +117,6 @@
     "rating": 8.6,
     "batingStyle": "Left-Handed Bat",
     "bowlingStyle": "Right-Arm Fast",
-    "price": "80 Lakh BDT"
+    "price": "$8000000"
   }
 ]
