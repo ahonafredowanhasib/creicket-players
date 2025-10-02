@@ -1,10 +1,32 @@
 import React, { useState } from 'react'
 import UserImg from '../assets/Group.png'
 import FlagImg from '../assets/flag.png'
-const playerCard = ({ player, setAvailableBalance, availableBalance }) => {
+import { toast } from 'react-toastify'
+const playerCard = ({ player, setAvailableBalance, availableBalance, setPurchasedPlayers, purchasedPlayers }) => {
 
     const [isSelected, setIsSelected] = useState(false)
+    const handleSelected = (playerData) => {
+        {
+            const playerPrice = parseInt(playerData.price.split("$").join(""))
+            if (availableBalance < playerPrice) {
+                toast("You have not enough coins !!!")
+            }
+            else {
 
+                setIsSelected(true)
+
+                setAvailableBalance(availableBalance - playerPrice)
+            }
+            if (purchasedPlayers.length === 6) {
+                toast("6 Players already selected")
+                return
+            }
+
+            setPurchasedPlayers([...purchasedPlayers, player])
+
+
+        }
+    }
     return (
 
         <div className="card bg-gray-100 shadow-sm p-4">
@@ -39,20 +61,7 @@ const playerCard = ({ player, setAvailableBalance, availableBalance }) => {
                 <div className="card-actions mt-3 flex justify-between items-center">
                     <p className='font-semibold'>Price: {player.price}</p>
 
-                    <button disabled={isSelected} onClick={() => {
-                        const playerPrice = parseInt(player.price.split("$").join(""))
-                        if (availableBalance < playerPrice){
-                            alert("You have not enough coins !!!")
-                        }
-                        else{
-                            
-                            setIsSelected(true)
-
-                            setAvailableBalance(availableBalance - playerPrice)
-                        }
-                           
-
-                    }} className="btn ">{isSelected === true ? "Selected" : "Choose Player"}</button>
+                    <button disabled={isSelected} onClick={() => { handleSelected(player) }} className="btn ">{isSelected === true ? "Selected" : "Choose Player"}</button>
                 </div>
             </div>
         </div>

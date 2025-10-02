@@ -2,18 +2,18 @@ import React from 'react';
 import NavImg from '../assets/logo.png'
 import Dollar from '../assets/Currency.png'
 
-const NavBar = ({availableBalance}) => {
+const NavBar = ({ availableBalance }) => {
     return (
-        <div className="navbar max-w-[1200px] mx-auto"> 
-            <div className="navbar-start"> 
-                <div className="dropdown"> 
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> 
+        <div className="navbar max-w-[1200px] mx-auto">
+            <div className="navbar-start">
+                <div className="dropdown">
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
                     <ul
-                        tabIndex={0} 
+                        tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><a>Home</a></li>
                         <li><a>Fixture</a></li>
@@ -21,19 +21,19 @@ const NavBar = ({availableBalance}) => {
                         <li><a>Schedules</a></li>
                     </ul>
                 </div>
-                <a className="w-[60px] h-[60px]"> 
+                <a className="w-[60px] h-[60px]">
                     <img src={NavImg} alt="" />
                 </a>
             </div>
-            <div className="navbar-end hidden lg:flex"> 
-                <ul className="menu menu-horizontal px-1"> 
+            <div className="navbar-end hidden lg:flex">
+                <ul className="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>Fixture</a></li>
                     <li><a>Teams</a></li>
                     <li><a>Schedules</a></li>
                 </ul>
             </div>
-            <div className="navbar-end"> 
+            <div className="navbar-end">
                 <span className='mr-1' >{availableBalance}</span>
                 <span className='mr-1'>Coin</span>
                 <img className='mr-1' src={Dollar} alt="" />
