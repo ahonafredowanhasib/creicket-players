@@ -19,7 +19,7 @@ function App() {
 
   const [toggole, setToggole] = useState(true)
 
-  const [availableBalance, setAvailableBalance] = useState(6000000000)
+  const [availableBalance, setAvailableBalance] = useState(60000000)
 
 
   return (
